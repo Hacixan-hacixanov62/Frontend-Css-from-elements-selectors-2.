@@ -1,0 +1,115 @@
+body,
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sarabun', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.wrapper .container {
+    width: 83%;
+}
+
+.wrapper .container header .header-elemets {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper .container header .header-elemets .left-side p {
+    margin-left: 5px;
+    margin-bottom: 20px;
+    color: #999999;
+    font-size: 16px;
+}
+
+.wrapper .container header .header-elemets .right-side .right-side-elements {
+    display: flex;
+    gap: 15px;
+}
+
+.wrapper .container header .header-elemets .right-side .right-side-elements li {
+    list-style: none;
+}
+
+.wrapper .container header .header-elemets .right-side .right-side-elements li button {
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 6px;
+    border: 1px solid #399;
+    ;
+    color: #399;
+}
+
+.wrapper .container .line {
+    height: 0.5px;
+    background-color: #399;
+    width: 100%;
+}
+
+.wrapper .container .main-text {
+    margin-top: 35px;
+    margin-bottom: 300px;
+}
+
+.wrapper .container .main-text h1 {
+    color: #399;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.wrapper .container .main-text p {
+    font-size: 16px;
+    line-height: 2.2rem;
+    width: 62%;
+}
+
+.wrapper .container .card-part h1 {
+    color: #39D;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.wrapper .container .card-part .cards {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    margin-bottom: 60px;
+}
+
+.wrapper .container .card-part .card {
+    width: 23%;
+}
+
+.wrapper .container .card-part .card img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.wrapper .container .card-part .card a {
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    color: #428bca;
+}
+
+.wrapper .container .card-part .card .text-center {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.wrapper .container .card-part .card p {
+    text-align: left;
+    line-height: 2em;
+    font-size: 16px;
+}
